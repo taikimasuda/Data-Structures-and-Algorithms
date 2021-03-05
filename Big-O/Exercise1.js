@@ -11,4 +11,4 @@ function funChallange (input) {
   return a; //O(1)
 }
 
-funChallange(); // Time Complexity: O(3 + 4(or 3)n) ~ O(n)
+funChallange(); // Time Complexity: O(3 + 4(or 3)n) ~[Drop the constant]~ --> O(n)
