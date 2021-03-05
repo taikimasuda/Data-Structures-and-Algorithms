@@ -14,4 +14,4 @@ function anotherFunChallenge(input) {
   let whoAmI = "I don't know"; // O(1)
 }
 
-anotherFunChallenge(); // Time Complexity: O(4 + 7(or 5)n) ~[Drop the constant]~ --> O(n)
+anotherFunChallenge(); // Time Complexity: O(4 + 7(or 5)n) ~[Remove constants]~ --> O(n)
