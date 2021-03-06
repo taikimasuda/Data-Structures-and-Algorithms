@@ -29,3 +29,23 @@ findNemo(everyone); // Time Complexity: O(n)
 findNemo(large);  // Time Complexity: O(n)
 getFirstFish(everyone); // Time Complexity: O(1)
 getFirstTwoBoxes(fish) // Time Complexity: O(2)
+
+
+const findNemo2 = array => {
+  array.forEach(fish => {
+    if(fish === 'nemo') {
+      console.log('Found Nemo!');
+    }
+  });
+}
+
+const findNemo3 = array => {
+  for (let fish of array) {
+    if(fish === 'nemo') {
+      console.log('Found Nemo!');
+    }
+  };
+}
+
+findNemo2(everyone); // Time Complexity: O(n)
+findNemo3(everyone); // Time Complexity: O(n)
